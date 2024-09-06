@@ -1,0 +1,7 @@
+{
+    "name": "@itthynk/py-project",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "python3 app.py"
+    }
+}

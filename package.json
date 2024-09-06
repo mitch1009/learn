@@ -4,7 +4,7 @@
   "description": "Learn javascript, python and typescript with monorepo structure",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "py": "pnpm --filter @itthynk/py-project"
   },
   "keywords": [
     "learn",
@@ -22,5 +22,8 @@
   "license": "ISC",
   "devDependencies": {
     "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.8"
   }
 }
