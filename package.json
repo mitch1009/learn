@@ -1,0 +1,26 @@
+{
+  "name": "@itthynk/learn",
+  "version": "0.0.0",
+  "description": "Learn javascript, python and typescript with monorepo structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learn",
+    "javascript",
+    "typescript",
+    "monorepo",
+    "pnpm"
+  ],
+  "homepage": "https://learn.mitch.guru",
+  "repository": "https://github.com/mitch1009/learn",
+  "author": {
+    "name": "Mitch",
+    "email": "hello@mitch.guru"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
