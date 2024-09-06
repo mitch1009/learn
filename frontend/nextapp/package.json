@@ -6,7 +6,12 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:mg": "prisma migrate dev",
+    "db:prod": "prisma db push",
+    "db:gen": "prisma generate",
+    "mg": "pnpm prisma mg && pnpm prisma gen",
+    "postinstall": "pnpm mg"
   },
   "dependencies": {
     "@prisma/client": "^5.19.1",
