@@ -4,7 +4,8 @@
   "description": "Learn javascript, python and typescript with monorepo structure",
   "main": "index.js",
   "scripts": {
-    "py": "pnpm --filter @itthynk/py-project"
+    "py": "pnpm --filter @itthynk/py-project",
+    "nxt": "pnpm --filter @itthynk/nextapp"
   },
   "keywords": [
     "learn",
