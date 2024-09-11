@@ -15,8 +15,15 @@ model User {
   phone        String?  @unique
   age          Int?
   username     String?  @unique
-  locationLang Float 
-  locationLat  Float 
+  locationLang Float
+  locationLat  Float
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
+}
+
+model Project {
+  id          String @id @default(cuid()) // uuid && cuid - yheyehhyehdhdye-yehhyhshsydhhs-eesseee, y66363546335463535535353
+  name        String
+  description String
+  image       String
 }
