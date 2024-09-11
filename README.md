@@ -6,9 +6,15 @@ APP
     - f3
 
 package managers:
- - pnpm 
- - yarn 
+ - pnpm
+ - yarn
  - Nx (Angular)
 
+## TESTING
+  - Playwright
+  - Cypress
+  - Jest
+  - Mocha
+  - Selenium
 
-
+  SDLC
