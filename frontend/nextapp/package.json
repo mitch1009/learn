@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "db": "prisma ",
+    "db:studio": "pnpm db studio",
     "db:mg": "prisma migrate dev",
-    "db:prod": "prisma db push",
+    "db:prod": "prisma db push --accept-data-loss",
     "db:gen": "prisma generate",
     "mg": "pnpm prisma mg && pnpm prisma gen",
     "postinstall": "pnpm mg"
